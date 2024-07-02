@@ -1,1 +1,0 @@
-# lazyneuron.github.io
