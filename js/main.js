@@ -8,23 +8,23 @@
 (function($) {
 "use strict";
     // Portfolio subpage filters
-    function portfolio_init() {
-        var portfolio_grid = $('.portfolio-grid'),
-            portfolio_filter = $('.portfolio-filters');
+    function projects_init() {
+        var projects_grid = $('.projects-grid'),
+            projects_filter = $('.projects-filters');
             
-        if (portfolio_grid) {
+        if (projects_grid) {
 
-            portfolio_grid.shuffle({
+            projects_grid.shuffle({
                 speed: 450,
                 itemSelector: 'figure'
             });
 
-            portfolio_filter.on("click", ".filter", function (e) {
-                portfolio_grid.shuffle('update');
+            projects_filter.on("click", ".filter", function (e) {
+                projects_grid.shuffle('update');
                 e.preventDefault();
-                $('.portfolio-filters .filter').parent().removeClass('active');
+                $('.projects-filters .filter').parent().removeClass('active');
                 $(this).parent().addClass('active');
-                portfolio_grid.shuffle('shuffle', $(this).attr('data-group') );
+                projects_grid.shuffle('shuffle', $(this).attr('data-group') );
             });
 
         }
@@ -158,9 +158,9 @@
         });
 
         // Initialize Portfolio grid
-        var $portfolio_container = $(".portfolio-grid");
-        $portfolio_container.imagesLoaded(function () {
-            portfolio_init(this);
+        var $projects_container = $(".projects-grid");
+        $projects_container.imagesLoaded(function () {
+            projects_init(this);
         });
 
         // Blog grid init
