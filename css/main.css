@@ -214,11 +214,11 @@ input[type="submit"]:focus {
 3. Page loadig animation
 ============================================================================= */
 .no-js .preloader,
-.no-js .preloader-portfolio { 
+.no-js .preloader-projects { 
   display: none;
 }
 .preloader,
-.preloader-portfolio {
+.preloader-projects {
   position: fixed;
   left: 0px;
   top: 0px;
@@ -1488,32 +1488,32 @@ textarea.form-control, textarea.form-control:focus {
 /* --- End of Google Map --- */
 
 /* --- Portfolio --- */
-.portfolio-filters {
+.projects-filters {
   margin-bottom: 30px;
 }
 
-.portfolio-filters li {
+.projects-filters li {
   display: inline-block;
   margin-right: 15px;
   font-size: 13px;
   opacity: 0.7;
 }
 
-.portfolio-filters li.active {
+.projects-filters li.active {
   opacity: 1;
 }
 
-.portfolio-filters li a {
+.projects-filters li a {
   color: #aaa;
   cursor: pointer;
 }
 
-.portfolio-grid {
+.projects-grid {
   margin-left: -7px;
   margin-right: -7px;
 }
 
-.portfolio-grid figure {
+.projects-grid figure {
   width: 33.33333%;
   float: left;
   padding: 7px;
@@ -1521,39 +1521,39 @@ textarea.form-control, textarea.form-control:focus {
   overflow: hidden;
 }
 
-.portfolio-grid.one-column figure {
+.projects-grid.one-column figure {
   width: 100%;
 }
 
-.portfolio-grid.two-columns figure {
+.projects-grid.two-columns figure {
   width: 50%;
 }
 
-.portfolio-grid.three-columns figure {
+.projects-grid.three-columns figure {
   width: 33.33333%;
 }
 
-.portfolio-grid.four-columns figure {
+.projects-grid.four-columns figure {
   width: 25%;
 }
 
-.portfolio-grid.five-columns figure {
+.projects-grid.five-columns figure {
   width: 20%;
 }
 
-.portfolio-grid img {
+.projects-grid img {
   position: relative;
   display: block;
   width: 100%;
 }
 
-.portfolio-grid figure a,
-.portfolio-rid figure img {
+.projects-grid figure a,
+.projects-rid figure img {
   display: block;
   position: relative;
 }
 
-.portfolio-grid figure img {
+.projects-grid figure img {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -1561,11 +1561,11 @@ textarea.form-control, textarea.form-control:focus {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio-grid figure:hover img {
+.projects-grid figure:hover img {
   transform: scale(1.1);
 }
 
-.portfolio-grid figure a {
+.projects-grid figure a {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -1574,12 +1574,12 @@ textarea.form-control, textarea.form-control:focus {
   z-index: 3;
 }
 
-.portfolio-item-img {
+.projects-item-img {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio-grid figure .portfolio-item-img:after {
+.projects-grid figure .projects-item-img:after {
   content: '';
   position: absolute;
   background-color: rgba(0,0,0,.05);
@@ -1595,23 +1595,23 @@ textarea.form-control, textarea.form-control:focus {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio-grid figure:hover .portfolio-item-img:after {
+.projects-grid figure:hover .projects-item-img:after {
   opacity: 1;
 }
 
-.portfolio-item-desc {
+.projects-item-desc {
   margin-top: 12px;
 }
 
-.portfolio-item-desc h4 {
+.projects-item-desc h4 {
   margin-bottom: 0;
 }
 
-.portfolio-item-desc small {
+.projects-item-desc small {
   color: #888;
 }
 
-.portfolio-grid figure i {
+.projects-grid figure i {
   display: inline-block;
   position: absolute;
   top: 15px;
@@ -1631,14 +1631,14 @@ textarea.form-control, textarea.form-control:focus {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio-grid figure .name {
+.projects-grid figure .name {
   display: block;
   padding: 15px 0;
   font-size: 16px;
   position: relative;
 }
 
-.portfolio-grid figure .category {
+.projects-grid figure .category {
   display: inline-block;
   padding: 2px 7px;
   background-color: #222;
@@ -1656,9 +1656,9 @@ textarea.form-control, textarea.form-control:focus {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio-grid figure:hover i,
-.portfolio-grid figure:hover .name,
-.portfolio-grid figure:hover .category {
+.projects-grid figure:hover i,
+.projects-grid figure:hover .name,
+.projects-grid figure:hover .category {
   opacity: 1;
 }
 /* --- End of Portfolio --- */
@@ -1899,7 +1899,7 @@ textarea.form-control, textarea.form-control:focus {
   margin: 0;
 }
 
-.portfolio-block {
+.projects-block {
   padding-top: 30px;
 }
 
@@ -1907,9 +1907,9 @@ textarea.form-control, textarea.form-control:focus {
   max-width: 100%;
 }
 
-.portfolio-page-video,
-.portfolio-page-carousel,
-.portfolio-page-image {
+.projects-page-video,
+.projects-page-carousel,
+.projects-page-image {
   position: relative;
   width: 100%;
   margin-bottom: 20px;
@@ -1964,7 +1964,7 @@ textarea.form-control, textarea.form-control:focus {
   border-radius: 0;
 }
 
-.portfolio-page-content .share-buttons a {
+.projects-page-content .share-buttons a {
   margin: 0 7px 0 0;
 }
 
@@ -2060,11 +2060,11 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 /* Portfolio Carousel */
-.portfolio-page-carousel {
+.projects-page-carousel {
   overflow: hidden;
 }
 
-.portfolio-page-carousel .owl-nav {
+.projects-page-carousel .owl-nav {
   position: absolute;
   top: 50%;
   width: 100%;
@@ -2073,7 +2073,7 @@ textarea.form-control, textarea.form-control:focus {
   -webkit-tap-highlight-color: transparent;
 }
 
-.portfolio-page-carousel .owl-nav [class*='owl-'] {
+.projects-page-carousel .owl-nav [class*='owl-'] {
   color: #9e9e9e;
   margin: 0;
   padding: 4px 7px;
@@ -2097,39 +2097,39 @@ textarea.form-control, textarea.form-control:focus {
   text-rendering: auto;
 }
 
-.portfolio-page-carousel .owl-nav [class*='owl-']:before {
+.projects-page-carousel .owl-nav [class*='owl-']:before {
   display: block;
 }
 
-.portfolio-page-carousel .owl-nav .owl-prev {
+.projects-page-carousel .owl-nav .owl-prev {
   position: absolute;
   margin-left: -50px;
   left: 0;
 }
 
-.portfolio-page-carousel:hover .owl-nav .owl-prev {
+.projects-page-carousel:hover .owl-nav .owl-prev {
   margin-left: 0;
 }
 
-.portfolio-page-carousel .owl-nav .owl-next {
+.projects-page-carousel .owl-nav .owl-next {
   position: absolute;
   margin-right: -50px;
   right: 0;
 }
 
-.portfolio-page-carousel:hover .owl-nav .owl-next {
+.projects-page-carousel:hover .owl-nav .owl-next {
   margin-right: 0;
 }
 
-.portfolio-page-carousel .owl-nav .owl-prev:before {
+.projects-page-carousel .owl-nav .owl-prev:before {
   content: "\f053";
 }
 
-.portfolio-page-carousel .owl-nav .owl-next:before {
+.projects-page-carousel .owl-nav .owl-next:before {
   content: "\f054";
 }
 
-.portfolio-page-carousel .owl-dots {
+.projects-page-carousel .owl-dots {
   display: inline-block;
   position: absolute;
   bottom: 0;
@@ -2139,15 +2139,15 @@ textarea.form-control, textarea.form-control:focus {
   -webkit-tap-highlight-color: transparent;
 }
 
-.portfolio-page-carousel .owl-dots .owl-dot {
+.projects-page-carousel .owl-dots .owl-dot {
   display: inline-block;
 }
 
-.portfolio-page-carousel .owl-dots .owl-dot.active span, .portfolio-page-carousel .owl-dots .owl-dot:hover span {
+.projects-page-carousel .owl-dots .owl-dot.active span, .projects-page-carousel .owl-dots .owl-dot:hover span {
   background: #9e9e9e;
 }
 
-.portfolio-page-carousel .owl-dots .owl-dot span {
+.projects-page-carousel .owl-dots .owl-dot span {
   width: 12px;
   height: 12px;
   margin: 5px;
@@ -2502,7 +2502,7 @@ blockquote {
 
 
 @media only screen and (max-width: 768px) {
-  .portfolio-grid figure {
+  .projects-grid figure {
     width: 50%;
   }
 
@@ -2525,35 +2525,35 @@ blockquote {
     width: 100%;
   }
 
-  .portfolio-grid figure,
-  .portfolio-grid.three-columns figure {
+  .projects-grid figure,
+  .projects-grid.three-columns figure {
     width: 50%;
   }
 
-  .portfolio-grid.four-columns figure,
-  .portfolio-grid.five-columns figure {
+  .projects-grid.four-columns figure,
+  .projects-grid.five-columns figure {
     width: 33.3333333%;
   }
 
-  .page-portfolio-loaded .portfolio-page-wrapper {
+  .page-projects-loaded .projects-page-wrapper {
     padding-left: 30px;
     padding-right: 30px;
   }
 
-  .portfolio-page-carousel .owl-nav .owl-prev {
+  .projects-page-carousel .owl-nav .owl-prev {
     margin-left: 0;
   }
 
-  .portfolio-page-carousel .owl-nav .owl-next {
+  .projects-page-carousel .owl-nav .owl-next {
     margin-right: 0;
   }
 
-  .portfolio-page-carousel .owl-nav .owl-prev,
-  .portfolio-page-carousel .owl-nav .owl-next {
+  .projects-page-carousel .owl-nav .owl-prev,
+  .projects-page-carousel .owl-nav .owl-next {
     background-color: rgba(255,255,255,.55);
   }
 
-  .single-page-content .portfolio-page-content {
+  .single-page-content .projects-page-content {
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -2566,20 +2566,20 @@ blockquote {
     width: 100%;
   }
 
-  .portfolio-grid figure {
+  .projects-grid figure {
     width: 100%;
   }
 
-  .portfolio-grid.three-columns figure,
-  .portfolio-grid.two-columns figure {
+  .projects-grid.three-columns figure,
+  .projects-grid.two-columns figure {
     width: 100%;
   }
 
-  .portfolio-grid figure,
-  .portfolio-grid.two-columns figure,
-  .portfolio-grid.three-columns figure,
-  .portfolio-grid.four-columns figure,
-  .portfolio-grid.five-columns figure {
+  .projects-grid figure,
+  .projects-grid.two-columns figure,
+  .projects-grid.three-columns figure,
+  .projects-grid.four-columns figure,
+  .projects-grid.five-columns figure {
     width: 100%;
   }
 
