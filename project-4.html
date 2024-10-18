@@ -1,0 +1,93 @@
+<div id="ajax-page" class="ajax-page-content">
+    <div class="ajax-page-wrapper">
+        <div class="ajax-page-nav">
+            <div class="nav-item ajax-page-prev-next">
+                <a class="ajax-page-load" href="project-2.html"><i class="lnr lnr-chevron-left"></i></a>
+                <a class="ajax-page-load" href="project-1.html"><i class="lnr lnr-chevron-right"></i></a>
+            </div>
+            <div class="nav-item ajax-page-close-button">
+                <a id="ajax-page-close-button" href="#"><i class="lnr lnr-cross"></i></a>
+            </div>
+        </div>
+
+        <div class="ajax-page-title">
+            <h1>Modeling Pricing and Valuation</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-8 col-md-8 projects-block">
+                <div class="owl-carousel projects-page-carousel">
+                    <div class="item">
+                        <img src="img/projects/PricingModel.png" alt="" />
+                    </div>
+                </div>
+
+
+                <script type="text/javascript">
+                    jQuery(document).ready(function($){
+                        $('.projects-page-carousel').imagesLoaded(function(){
+                            $('.projects-page-carousel').owlCarousel({
+                                smartSpeed:1200,
+                                items: 1,
+                                loop: true,
+                                dots: true,
+                                nav: true,
+                                navText: false,
+                                margin: 10,
+                                autoHeight:true
+                            });
+                        });
+                    });
+                </script>
+            </div>
+
+            <div class="col-sm-4 col-md-4 projects-block">
+                <!-- Project Description -->
+                <div class="project-description">
+                    <div class="block-title">
+                        <h3>Description</h3>
+                    </div>
+                    <ul class="project-general-info">
+                        <li><p><i class="fa fa-user"></i>Konstantina Sokratous</p></li>
+                        <li><p><i class="fa fa-globe"></i> <a href="https://doi.org/10.1016/j.jocm.2023.100418" target="_blank">Related Paper</a></p></li>
+                        <li><p><i class="fa fa-globe"></i> <a href="https://doi.org/10.31219/osf.io/vhgm8" target="_blank">Related Paper</a></p></li>
+                        <li><p><i class="fa fa-calendar"></i> 2024</p></li>
+                    </ul>
+
+                    <p class="text-justify"> The majority of research on decision-making is devoted to preferential binary choice. While there have been attempts more recently to study and understand how humans make selections
+                        in problems with multiple alternatives (3,4,5 options at once), there is still very little known about pricing judgements and valuation. Research has shown that such judgements can be inconsistent with people's 
+                    choices, suggesting that the mechanisms involved in valuation are seperate from those involved in choice. How robust this finding tends to and under which conditions merits further research, along with exploring the reasons 
+                    as to why the two methods of elicication yield different results. My line of work of work on this topic focuses on shedding light into the mechanisms that underlie valuation, how it compares or not to choice and why, along with developing methods
+                    for joint modeling to allow for a common representation of value across the two methods.</p>
+                    <!-- /Project Description -->
+
+                    <!-- Technology -->
+                    <div class="tags-block">
+                        <div class="block-title">
+                            <h3>Modeling</h3>
+                        </div>
+                        <ul class="tags">
+                            <li><a>Preference Reversals</a></li>
+                            <li><a>Delay Discounting</a></li>
+                            <li><a>Cognitive Modeling</a></li>
+                            <li><a>Pricing</a></li>
+                        </ul>
+                    </div>
+                    <!-- /Technology -->
+
+                    <!-- Share Buttons -->
+                    <div class="btn-group share-buttons">
+                        <div class="block-title">
+                            <h3>Share</h3>
+                        </div>
+                        <a href="#" target="_blank" class="btn"><i class="fab fa-facebook-f"></i> </a>
+                        <a href="#" target="_blank" class="btn"><i class="fab fa-twitter"></i> </a>
+                        <a href="#" target="_blank" class="btn"><i class="fab fa-dribbble"></i> </a>
+                    </div>
+                    <!-- /Share Buttons -->
+                </div>
+                <!-- Project Description -->
+            </div>
+        </div>
+    </div>
+</div>
