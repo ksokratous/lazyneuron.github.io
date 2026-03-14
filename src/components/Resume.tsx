@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Download } from "lucide-react";
 
 const experience = [
   { period: "2025 – Present", role: "Postdoctoral Fellow", place: "University of Missouri", desc: "AI evaluation, Machine Psychometrics, Autonomous Experimentation, computational modeling." },
@@ -90,6 +91,17 @@ const Resume = () => {
               </div>
             ))}
           </div>
+        </div>
+
+        <div className="mt-16 flex justify-center">
+          <a
+            href="/resume.pdf"
+            download
+            className="inline-flex items-center gap-2 px-6 py-3 border border-border text-sm tracking-[0.15em] uppercase text-foreground hover:text-primary hover:border-primary transition-colors duration-500"
+          >
+            <Download className="w-4 h-4" />
+            Download Full Resume
+          </a>
         </div>
       </div>
     </section>

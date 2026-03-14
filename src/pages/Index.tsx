@@ -11,9 +11,9 @@ const Index = () => {
       <Navbar />
       <Hero />
       <About />
-      <Resume />
       <Publications />
       <Projects />
+      <Resume />
       <footer className="border-t border-border py-16">
         <div className="max-w-6xl mx-auto px-6 md:px-10 flex flex-col md:flex-row items-center justify-between gap-6">
           <p className="text-xs text-muted-foreground tracking-wide" style={{ fontFamily: "var(--font-body)" }}>
