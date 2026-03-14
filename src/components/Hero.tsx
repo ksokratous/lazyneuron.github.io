@@ -48,7 +48,7 @@ const Hero = () => {
               className="flex flex-col md:flex-row md:items-end justify-between gap-6 mt-4"
             >
               <p className="text-base md:text-lg text-muted-foreground max-w-md font-light leading-relaxed">
-                Cognitive Neuroscience · AI · Computational Modeling · Bayesian Methods
+                Cognitive (neuro)Science · AI · Computational Modeling · Bayesian Methods
               </p>
               <a
                 href="#about"
