@@ -23,8 +23,8 @@ export const publications: Publication[] = [
     link: "https://doi.org/10.31219/osf.io/vhgm8",
   },
   {
-    year: "2026 (Under Review)",
-    journal: "Cognition",
+    year: "2026",
+    journal: "Cognition (Under Review)",
     title: "The Timing of Suboptimality: How Temporal Uncertainty Drives Procrastination Behavior",
     authors: "Sokratous, K., Hintze, A., Fitch, A., & Kvam, P. D.,",
     link: "https://osf.io/preprints/osf/trkv9_v3",
