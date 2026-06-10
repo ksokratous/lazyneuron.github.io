@@ -24,7 +24,7 @@ const About = () => {
             <motion.div {...fadeUp}>
               <span className="editorial-label mb-4 block">About</span>
               <h2 className="section-heading mb-6">
-                The <em className="text-primary">lazy</em> neuron.
+                 <em className="text-primary">Konstantina</em> .
               </h2>
               <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
                 Postdoctoral scholar at the University of Missouri. Developing
