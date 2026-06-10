@@ -15,13 +15,13 @@ export const projects: Project[] = [
     title: "Deep Learning for Parameter Estimation and Model Comparison",
     category: "Deep Learning",
     description:
-      "Developing deep learning approaches to estimate parameters of cognitive models and compare competing theoretical accounts of decision-making behavior. This work leverages neural networks to bypass traditional optimization bottlenecks in computational modeling.",
+      "Developing deep learning approaches to estimate parameters of cognitive models and compare competing theoretical accounts of decision-making behavior. This work leverages neural networks to bypass traditional optimization bottlenecks in computational modeling. Fun fact, I have recently expanded this line of work to neutron reflectometry at the nuclear research reactor at Mizzou!!",
     methods: ["Neural Networks", "Parameter Recovery", "Model Comparison", "Bayesian Inference"],
   },
   {
     slug: "variational-autoencoders-latent-structures",
     number: "02",
-    title: "Variational Autoencoders for Latent Structures",
+    title: "Variational Autoencoders for Model Discovery and Latent Structures",
     category: "Deep Learning",
     description:
       "Using variational autoencoders to uncover latent psychological structures from behavioral data. This project explores how generative models can reveal hidden dimensions of cognition that traditional methods might miss.",

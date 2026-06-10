@@ -7,26 +7,34 @@ export interface Publication {
 }
 
 export const publications: Publication[] = [
+   {
+    year: "2026",
+    journal: "",
+    title: "Machine Psychometrics for Large Language Models",
+    authors: "Sokratous, K., Vandekerckhove, J., & Davis-Stober, C.",
+    link: "#",
+  },
+
   {
-    year: "2024",
-    journal: "Psychological Review",
-    title: "Decisions among shifting choice alternatives reveal option-general representations of evidence",
-    authors: "Kvam, P. D., Sokratous, K., & Fitch, A.",
-    link: "https://doi.org/10.1037/rev0000500",
+    year: "2026 (In Press)",
+    journal: "Journal of Choice Modeling",
+    title: "Time flips and price dips: Modeling preference reversals between intertemporal choice and pricing",
+    authors: "Sokratous K. & Kvam, P. D.",
+    link: "https://doi.org/10.31219/osf.io/vhgm8",
+  },
+  {
+    year: "2026 (Under Review)",
+    journal: "Cognition",
+    title: "The Timing of Suboptimality: How Temporal Uncertainty Drives Procrastination Behavior",
+    authors: "Sokratous, K., Hintze, A., Fitch, A., & Kvam, P. D.,",
+    link: "https://osf.io/preprints/osf/trkv9_v3",
   },
   {
     year: "2024",
     journal: "Decision",
     title: "Using artificial intelligence to fit, compare, evaluate, and discover computational models of decision behavior",
-    authors: "Kvam, P. D., Sokratous, K., Fitch, A. K., & Hintze, A.",
+    authors: "Kvam, P. D., Sokratous, K., Fitch, A., & Hintze, A.",
     link: "https://doi.org/10.1037/dec0000237",
-  },
-  {
-    year: "2024",
-    journal: "Behavior Research Methods",
-    title: "Improving the reliability and validity of the IAT with a dynamic model driven by similarity",
-    authors: "Kvam, P. D., Irving, L. H., Sokratous, K., & Smith, C. T.",
-    link: "https://doi.org/10.3758/s13428-023-02141-1",
   },
   {
     year: "2023",
@@ -35,11 +43,5 @@ export const publications: Publication[] = [
     authors: "Sokratous, K., Fitch, A. K., & Kvam, P. D.",
     link: "https://doi.org/10.1016/j.jocm.2023.100418",
   },
-  {
-    year: "2023",
-    journal: "Computational Brain & Behavior",
-    title: "Placeholder: Additional publication entry",
-    authors: "Sokratous, K., & Kvam, P. D.",
-    link: "#",
-  },
+ 
 ];

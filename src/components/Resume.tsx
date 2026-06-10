@@ -4,14 +4,14 @@ import { Download } from "lucide-react";
 const experience = [
   { period: "2025 – Present", role: "Postdoctoral Fellow", place: "University of Missouri", desc: "AI evaluation, Machine Psychometrics, Autonomous Experimentation, computational modeling." },
   { period: "2024 – 2025", role: "Visiting Scholar", place: "Ohio State University", desc: "Experiential vs descriptive decision-making and joint modeling." },
-  { period: "2020 – 2025", role: "Graduate Research Assistant", place: "University of Florida", desc: "Computational modeling, Bayesian cognition, deep neural networks." },
+  { period: "2020 – 2025", role: "Research Assistant", place: "University of Florida", desc: "Computational modeling, Bayesian cognition, deep neural networks." },
   { period: "2016 – Present", role: "CEO & Co-Founder", place: "CCIF Cyprus", desc: "Non-profit: women's rights, immigration, youth mentoring." },
   { period: "2024", role: "Teaching Instructor", place: "University of Florida", desc: "PSY2012 — General Psychology. Class size: 48." },
   { period: "2018 – 2020", role: "Operations Analyst", place: "Olea Medical / Canon Inc", desc: "Data pipeline optimization for automated diagnosis." },
 ];
 
 const education = [
-  { period: "2020 – Present", degree: "Ph.D, M.Sc Psychology", place: "University of Florida", note: "Behavioral & Cognitive Neuroscience" },
+  { period: "2020 – 2025", degree: "Ph.D, M.Sc Psychology", place: "University of Florida", note: "Behavioral & Cognitive Neuroscience" },
   { period: "2018 – 2019", degree: "M.Sc Operations Management", place: "Montpellier Business School", note: "Industry funded" },
   { period: "2013 – 2018", degree: "BA, M.Sc Clinical Psychology", place: "University of Montpellier III", note: "" },
 ];

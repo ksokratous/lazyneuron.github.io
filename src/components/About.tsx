@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 
 const areas = [
-  { number: "01", title: "Research", description: "Decision-making,cognitive science, AI methods and evaluation." },
-  { number: "02", title: "Data Science", description: "mathematical and computational cognitive modeling, simulation-based inference, machine learning methods for joint modeling of neural and behavioral data." },
+  { number: "01", title: "Research", description: "Decision-making, cognitive science, AI methods and evaluation." },
+  { number: "02", title: "Data Science", description: "Mathematical and computational cognitive modeling, simulation-based inference, machine learning methods for joint modeling and science" },
   { number: "03", title: "Teaching & Writing", description: "Cognitive (neuro)science, technical and grant writing, course development, instruction, and public speaking." },
   { number: "04", title: "Management", description: "Project and people management, public/private collaboration coordination, research data warehousing and management." },
 ];
