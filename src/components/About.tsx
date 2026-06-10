@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
 const areas = [
-  { number: "01", title: "Research", description: "Decision-making, risky and intertemporal choice, procrastination, cognitive models, AI, and theoretical modeling." },
-  { number: "02", title: "Data Science", description: "Probabilistic modeling, deep learning for amortized inference, simulation studies, and joint modeling for neural and behavioral data." },
-  { number: "03", title: "Teaching & Writing", description: "Cognitive neuroscience, clinical psychology, AI. Course development, instruction, and public speaking." },
-  { number: "04", title: "Management", description: "Project and people management, mentoring, collaboration coordination, and research data management." },
+  { number: "01", title: "Research", description: "Decision-making,cognitive science, AI methods and evaluation." },
+  { number: "02", title: "Data Science", description: "mathematical and computational cognitive modeling, simulation-based inference, machine learning methods for joint modeling of neural and behavioral data." },
+  { number: "03", title: "Teaching & Writing", description: "Cognitive (neuro)science, technical and grant writing, course development, instruction, and public speaking." },
+  { number: "04", title: "Management", description: "Project and people management, public/private collaboration coordination, research data warehousing and management." },
 ];
 
 const fadeUp = {
@@ -22,9 +22,9 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
           <div className="lg:col-span-5">
             <motion.div {...fadeUp}>
-              <span className="editorial-label mb-4 block">About</span>
+              <span className="editorial-label mb-4 block">Konstantina</span>
               <h2 className="section-heading mb-6">
-                 <em className="text-primary">Konstantina</em> .
+                 <em className="text-primary">About Me</em> 
               </h2>
               <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
                 Postdoctoral scholar at the University of Missouri. Developing
