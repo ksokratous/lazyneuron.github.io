@@ -14,7 +14,7 @@ header-includes:
   <p class="role">Postdoctoral Fellow, University of Missouri</p>
   <p class="contact">
     <a href="mailto:ksokratous@missouri.edu">Email</a><span>•</span>
-    <a href="https://www.lazyneuron.com">lazyneuron.com</a><span>•</span>
+    <a href="https://www.lazyneuron.com">Website</a><span>•</span>
     <a href="https://github.com/ksokratous">GitHub</a><span>•</span>
     <a href="https://www.linkedin.com/in/ksokratous">LinkedIn</a><span>•</span>
     <a href="https://scholar.google.com/citations?user=U9DSyLUAAAAJ&amp;hl=en" aria-label="Google Scholar" title="Google Scholar">
