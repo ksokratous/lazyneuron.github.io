@@ -1,7 +1,65 @@
-import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
+import { motion, useReducedMotion } from "framer-motion";
 import heroVisual from "@/assets/hero-visual.gif";
 
+const ROLE_TEXT = "Postdoctoral Fellow · University of Missouri";
+const FOCUS_TEXT = "Cognitive science · AI evaluation · Computational modeling · Bayesian methods";
+
 const Hero = () => {
+  const shouldReduceMotion = useReducedMotion();
+  const [typedRole, setTypedRole] = useState("");
+  const [typedFocus, setTypedFocus] = useState("");
+  const [typingLine, setTypingLine] = useState<"role" | "focus" | null>("role");
+
+  useEffect(() => {
+    const reduceMotion =
+      shouldReduceMotion ?? window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    if (reduceMotion) {
+      setTypedRole(ROLE_TEXT);
+      setTypedFocus(FOCUS_TEXT);
+      setTypingLine(null);
+      return;
+    }
+
+    let roleIndex = 0;
+    let focusIndex = 0;
+    let roleInterval = 0;
+    let focusInterval = 0;
+    let pauseTimeout = 0;
+
+    setTypedRole("");
+    setTypedFocus("");
+    setTypingLine("role");
+
+    roleInterval = window.setInterval(() => {
+      roleIndex += 1;
+      setTypedRole(ROLE_TEXT.slice(0, roleIndex));
+
+      if (roleIndex >= ROLE_TEXT.length) {
+        window.clearInterval(roleInterval);
+        pauseTimeout = window.setTimeout(() => {
+          setTypingLine("focus");
+          focusInterval = window.setInterval(() => {
+            focusIndex += 1;
+            setTypedFocus(FOCUS_TEXT.slice(0, focusIndex));
+
+            if (focusIndex >= FOCUS_TEXT.length) {
+              window.clearInterval(focusInterval);
+              setTypingLine(null);
+            }
+          }, 22);
+        }, 280);
+      }
+    }, 32);
+
+    return () => {
+      window.clearInterval(roleInterval);
+      window.clearInterval(focusInterval);
+      window.clearTimeout(pauseTimeout);
+    };
+  }, [shouldReduceMotion]);
+
   return (
     <section className="min-h-screen flex flex-col justify-end relative overflow-hidden pb-16 md:pb-24">
       <div className="section-container flex-1 flex flex-col justify-center relative z-10">
@@ -13,9 +71,11 @@ const Hero = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 1.2 }}
             >
-              <span className="editorial-label mb-6 block">
-                Postdoctoral Fellow · University of Missouri
+              <span className="editorial-label mb-6 block" aria-hidden="true">
+                {typedRole}
+                {typingLine === "role" && <span className="typing-cursor" />}
               </span>
+              <span className="sr-only">{ROLE_TEXT}</span>
             </motion.div>
 
             <div className="overflow-hidden">
@@ -48,7 +108,11 @@ const Hero = () => {
               className="flex flex-col md:flex-row md:items-end justify-between gap-6 mt-4"
             >
               <p className="text-base md:text-lg text-muted-foreground max-w-md font-light leading-relaxed">
-                Cognitive (neuro)Science · (neuro)AI · Computational Modeling · Bayesian Methods
+                <span aria-hidden="true">
+                  {typedFocus}
+                  {typingLine === "focus" && <span className="typing-cursor" />}
+                </span>
+                <span className="sr-only">{FOCUS_TEXT}</span>
               </p>
               <a
                 href="#about"
