@@ -9,23 +9,28 @@ header-includes:
     \input{cv-preamble.tex}
 ---
 
-\begin{flushleft}
-{\fontsize{20}{22}\selectfont\textsc{Konstantina Sokratous}}\par
-\vspace{4pt}
-{\large Postdoctoral Fellow, University of Missouri}\par
-\vspace{4pt}
-\href{mailto:ksokratouspro@gmail.com}{ksokratouspro@gmail.com}
-\quad $\bullet$ \quad
-\href{https://www.lazyneuron.com}{lazyneuron.com}
-\quad $\bullet$ \quad
-\href{https://github.com/ksokratous}{GitHub}
-\quad $\bullet$ \quad
-\href{https://www.linkedin.com/in/ksokratous}{LinkedIn}\par
-\vspace{6pt}
-{\small\bfseries Computational Cognitive Modeling $\vert$ Simulation-Based Inference $\vert$ Machine Psychometrics $\vert$ Human and Artificial Intelligence}\par
-\vspace{8pt}
-{\color{CVPurple}\rule{0.48\textwidth}{0.7pt}}
-\end{flushleft}
+<header class="cv-header">
+  <h1>Konstantina Sokratous</h1>
+  <p class="role">Postdoctoral Fellow, University of Missouri</p>
+  <p class="contact">
+    <a href="mailto:ksokratous@missouri.edu">Email</a><span>•</span>
+    <a href="https://www.lazyneuron.com">lazyneuron.com</a><span>•</span>
+    <a href="https://github.com/ksokratous">GitHub</a><span>•</span>
+    <a href="https://www.linkedin.com/in/ksokratous">LinkedIn</a><span>•</span>
+    <a href="https://scholar.google.com/citations?user=U9DSyLUAAAAJ&amp;hl=en" aria-label="Google Scholar" title="Google Scholar">
+      <svg viewBox="0 0 48 48" role="img" aria-hidden="true" class="contact-icon">
+        <path fill="currentColor" d="M24 5 1.5 16.2 24 27.4l18-8.9v13.2h4V16.2L24 5Z" />
+        <path fill="currentColor" opacity="0.58" d="M10 22.4v10.2c7.8 6.2 20.2 6.2 28 0V22.4l-14 6.9-14-6.9Z" />
+      </svg>
+    </a>
+    <a href="https://bsky.app/profile/lazyneuron.bsky.social" aria-label="Bluesky" title="Bluesky">
+      <svg viewBox="0 0 24 24" role="img" aria-hidden="true" class="contact-icon">
+        <path fill="currentColor" d="M12 10.7c-1.1-2-4-5.7-6.4-7.6C3.3 1.2 2.4 1.6 1.9 1.9c-.6.4-.7 1.4-.7 2.2 0 .9.2 2.3.4 3.1.8 3.2 3.7 4.3 6.3 4 .1 0 .2.1.2.2s-.1.2-.2.2c-2.6.4-4.8 1.5-5.5 4.2-.3 1-.1 2.8.8 3.7 1.1 1 3.7 1.4 7.4-1.9 1-.9 1.9-2 2.7-3.2.9 1.2 1.8 2.3 2.7 3.2 3.7 3.3 6.3 2.9 7.4 1.9.9-.9 1.1-2.7.8-3.7-.7-2.7-2.9-3.8-5.5-4.2-.1 0-.2-.1-.2-.2s.1-.2.2-.2c2.6.3 5.5-.8 6.3-4 .2-.8.4-2.2.4-3.1 0-.8-.1-1.8-.7-2.2-.5-.3-1.4-.7-3.7 1.2-2.4 1.9-5.3 5.6-6.4 7.6Z" />
+      </svg>
+    </a>
+  </p>
+  <p class="specialties">Computational Cognitive Modeling | Simulation-Based Inference | Machine Psychometrics | Human and Artificial Intelligence</p>
+</header>
 
 # EDUCATION
 
