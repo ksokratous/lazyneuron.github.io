@@ -18,6 +18,15 @@ const BlueskyIcon = () => (
   </svg>
 );
 
+const GitHubIcon = () => (
+  <svg viewBox="0 0 24 24" aria-hidden="true" className="h-5 w-5">
+    <path
+      fill="currentColor"
+      d="M12 .8a11.2 11.2 0 0 0-3.54 21.82c.56.1.76-.24.76-.54v-2.1c-3.1.68-3.76-1.32-3.76-1.32-.5-1.29-1.24-1.63-1.24-1.63-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15 1 .1.76 2.62 3.44 1.85.1-.72.39-1.22.7-1.5-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.44-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.08 1.15a10.7 10.7 0 0 1 5.6 0c2.14-1.45 3.08-1.15 3.08-1.15.61 1.54.23 2.68.11 2.96.72.78 1.15 1.78 1.15 3 0 4.29-2.61 5.23-5.1 5.5.4.35.75 1.03.75 2.08v3.17c0 .3.2.65.77.54A11.2 11.2 0 0 0 12 .8Z"
+    />
+  </svg>
+);
+
 const Index = () => {
   return (
     <div className="bg-background min-h-screen">
@@ -53,9 +62,18 @@ const Index = () => {
             >
               <BlueskyIcon />
             </a>
+            <a
+              href="https://github.com/ksokratous"
+              aria-label="GitHub profile"
+              title="GitHub"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors duration-500"
+            >
+              <GitHubIcon />
+            </a>
             {[
               { label: "LinkedIn", href: "https://linkedin.com" },
-              { label: "GitHub", href: "https://github.com" },
               { label: "Email", href: "mailto:ksokratous@missouri.edu" },
             ].map((link) => (
               <a
