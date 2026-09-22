@@ -4,6 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "resume:pdf": "node scripts/generate-resume.mjs",
+    "prebuild": "npm run resume:pdf",
     "dev": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",

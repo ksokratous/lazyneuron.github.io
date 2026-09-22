@@ -29,6 +29,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Install resume PDF converter
+        run: sudo apt-get update && sudo apt-get install -y pandoc
+
       - name: Build app
         run: npm run build
 
