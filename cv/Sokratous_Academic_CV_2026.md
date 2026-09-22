@@ -140,7 +140,7 @@ CMPEA Franco Basaglia and Institut de Cancérologie du Gard; Sète and Nîmes, F
 Three-year award; Sole PI
 
 **University of Florida Informatics Institute AI Fellowship** \hfill \textbf{2021 | \$45,000}  
-One of five fellowships awarded for the advancement of AI research
+One of five fellowships awarded for the advancement of AI research, sole PI.
 
 **Technology Licensing Agreement T18841, UF Innovate** \hfill \textbf{2022}  
 Automated cognitive-modeling system for assessing health-related behavior
