@@ -2,18 +2,17 @@ import { motion } from "framer-motion";
 import { Download } from "lucide-react";
 
 const experience = [
-  { period: "2025 – Present", role: "Postdoctoral Fellow", place: "University of Missouri", desc: "AI evaluation, Machine Psychometrics, Autonomous Experimentation, computational modeling." },
+  { period: "2025 – Present", role: "Postdoctoral Fellow", place: "University of Missouri", desc: "Develop machine-learning and measurement tools to evaluate AI systems and decision-making, integrating behavioral and multimodal data." },
   { period: "2024 – 2025", role: "Visiting Scholar", place: "Ohio State University", desc: "Experiential vs descriptive decision-making and joint modeling." },
-  { period: "2020 – 2025", role: "Research Assistant", place: "University of Florida", desc: "Computational modeling, Bayesian cognition, deep neural networks." },
-  { period: "2016 – Present", role: "CEO & Co-Founder", place: "CCIF Cyprus", desc: "Non-profit: women's rights, immigration, youth mentoring." },
-  { period: "2024", role: "Teaching Instructor", place: "University of Florida", desc: "PSY2012 — General Psychology. Class size: 48." },
-  { period: "2018 – 2020", role: "Operations Analyst", place: "Olea Medical / Canon Inc", desc: "Data pipeline optimization for automated diagnosis." },
+  { period: "2020 – 2025", role: "Data Analyst", place: "University of Florida · Graduate Research Assistant", desc: "Built statistical and machine-learning models and automated analysis workflows to uncover patterns in behavioral data." },
+  { period: "2016 – Present", role: "CEO & Co-Founder", place: "CCIF Cyprus", desc: "Co-founded and led a nonprofit advancing women's rights and supporting immigrant communities and youth through mentoring." },
+  { period: "2018 – 2020", role: "Operations Analyst", place: "Olea Medical / Canon Inc", desc: "Applied statistical modeling, optimization, and data-pipeline analysis to support automated medical diagnosis and operational decisions." },
 ];
 
 const education = [
-  { period: "2020 – 2025", degree: "Ph.D, M.Sc Psychology", place: "University of Florida", note: "Behavioral & Cognitive Neuroscience" },
-  { period: "2018 – 2019", degree: "M.Sc Operations Management", place: "Montpellier Business School", note: "Industry funded" },
-  { period: "2013 – 2018", degree: "BA, M.Sc Clinical Psychology", place: "University of Montpellier III", note: "" },
+  { period: "2020 – 2025", degree: "Ph.D., Behavioral and Cognitive Neuroscience", place: "University of Florida", note: "Dissertation: Machine Learning Methods for Discovering Latent Structures — AI tools for cognitive neuroscience." },
+  { period: "2020 – 2022", degree: "M.Sc., Behavioral and Cognitive Neuroscience", place: "University of Florida", note: "Thesis: SINs: Simulation Inversion Networks for Automated Model Fitting — neural methods for fast, likelihood-free model fitting." },
+  { period: "2018 – 2019", degree: "M.Sc., Operations Management", place: "Montpellier Business School", note: "Industry-funded program; ranked 2nd of 16." },
 ];
 
 const skills = [
@@ -36,7 +35,13 @@ const Resume = () => {
       <div className="section-container">
         <div className="editorial-rule" />
         <span className="editorial-label mb-4 block">Curriculum Vitae</span>
-        <h2 className="section-heading mb-16">Experience & Education</h2>
+        <h2 className="section-heading mb-4">Experience & Education</h2>
+        <p className="text-sm text-muted-foreground mb-16">
+          For full details, see{" "}
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+            my full resume
+          </a>.
+        </p>
 
         <div className="mb-20">
           <h3 className="text-xs tracking-[0.3em] uppercase text-muted-foreground mb-8 border-b border-border pb-3">Experience</h3>
