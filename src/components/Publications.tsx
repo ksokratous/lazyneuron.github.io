@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import { Link } from "react-router-dom";
 import { publications } from "@/data/publications";
 
 const HOMEPAGE_LIMIT = 5;
+const GOOGLE_SCHOLAR_URL = "https://scholar.google.com/citations?user=U9DSyLUAAAAJ&hl=en";
 
 const Publications = () => {
   const displayedPubs = publications.slice(0, HOMEPAGE_LIMIT);
@@ -55,13 +55,15 @@ const Publications = () => {
             transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] as const }}
             className="mt-12 flex justify-center"
           >
-            <Link
-              to="/publications"
+            <a
+              href={GOOGLE_SCHOLAR_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 text-sm tracking-[0.15em] uppercase text-muted-foreground hover:text-primary transition-colors duration-500"
             >
               View all publications
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-500" />
-            </Link>
+            </a>
           </motion.div>
         )}
       </div>

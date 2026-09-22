@@ -21,7 +21,7 @@ const Index = () => {
           </p>
           <div className="flex items-center gap-6">
             {[
-              { label: "Google Scholar", href: "https://scholar.google.com" },
+              { label: "Google Scholar", href: "https://scholar.google.com/citations?user=U9DSyLUAAAAJ&hl=en" },
               { label: "LinkedIn", href: "https://linkedin.com" },
               { label: "GitHub", href: "https://github.com" },
               { label: "Email", href: "mailto:email@example.com" },
