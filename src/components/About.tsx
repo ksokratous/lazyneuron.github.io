@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
 const areas = [
-  { number: "01", title: "Research", description: "Decision-making, cognitive science, AI methods and evaluation." },
-  { number: "02", title: "Data Science", description: "Mathematical and computational cognitive modeling, simulation-based inference, machine learning methods for joint modeling and science" },
-  { number: "03", title: "Teaching & Writing", description: "Cognitive (neuro)science, technical and grant writing, course development, instruction, and public speaking." },
-  { number: "04", title: "Management", description: "Project and people management, public/private collaboration coordination, research data warehousing and management." },
+  { number: "01", title: "Research", description: "Decision-making, cognitive (neuro) science, AI methods and evaluation." },
+  { number: "02", title: "Data Science", description: "Mathematical and computational modeling, simulation-based inference, DL methods for joint modeling and science" },
+  { number: "03", title: "Teaching & Technical Writing", description: "Cognitive (neuro)science, technical and grant writing, course development, instruction, and public speaking." },
+  { number: "04", title: "Project and Research Management", description: "Project and people management, public/private collaboration coordination, research data warehousing and management." },
 ];
 
 const fadeUp = {

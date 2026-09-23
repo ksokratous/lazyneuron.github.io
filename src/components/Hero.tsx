@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import heroVisual from "@/assets/hero-visual.gif";
 
-const ROLE_TEXT = "Postdoctoral Fellow · University of Missouri";
-const FOCUS_TEXT = "Cognitive science · AI evaluation · Computational modeling · Bayesian methods";
+const ROLE_TEXT = "Research Scientist · University of Missouri";
+const FOCUS_TEXT = "Cognitive (neuro)Science · AI · Computational modeling · Bayesian methods";
 
 const Hero = () => {
   const shouldReduceMotion = useReducedMotion();
