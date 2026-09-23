@@ -27,8 +27,8 @@ const About = () => {
                  <em className="text-primary">About Me</em> 
               </h2>
               <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
-                Postdoctoral scholar at the University of Missouri. Developing
-                machine learning approaches to model fitting and joint modeling of
+                Research Scientist at the University of Missouri. Developing
+                deep learning approaches to model fitting and joint modeling of
                 various types of data. Current projects include evaluating AI,
                 Machine Psychometrics, and Autonomous Experimentation in Scientific
                 Instruments.
